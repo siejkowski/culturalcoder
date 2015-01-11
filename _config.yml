@@ -1,14 +1,13 @@
-safe:        true
-port:        4000
-baseurl:     /
-url:         http://localhost:4000
+safe: true
+lsi: false
+source: .
 
-source:      .
-destination: ./_site
-plugins:     ./_plugins
+future: true
+permalink: pretty
 
-future:      true
-lsi:         false
+exclude: [CNAME, Gemfile, Gemfile.lock, README.md]
+
 highlighter: pygments
-markdown:    kramdown
-permalink:   date
+markdown: kramdown
+sass:
+    style: :expanded
