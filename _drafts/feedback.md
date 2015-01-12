@@ -1,3 +1,11 @@
+---
+
+layout: post
+title: "Feedback"
+author: Krzysztof Siejkowski
+
+---
+
 Feedback ogólny:
 * na telefonie słowa się źle rozkładają, za duże przerwy
 * notka jest za krotka

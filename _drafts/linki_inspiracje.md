@@ -1,3 +1,11 @@
+---
+
+layout: post
+title: "Linki"
+author: Krzysztof Siejkowski
+
+---
+
 
 [tc]: http://www.thoughtclusters.com/2009/07/the-problem-with-the-software-craftsmanship-concept/
 [sk]: http://www.skorks.com/2009/07/in-defense-of-the-software-craftsmanship-concept/

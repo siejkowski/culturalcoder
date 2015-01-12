@@ -1,15 +1,12 @@
 ---
 
 layout: post
-title: "Spiritus movens kryje się za szkłem"  
-lang: "pl"  
-read_more_after_node: 1
-author: Krzysztof Siejkowski  
-words: fetyszyzm, komputerowy
+title: "Spiritus movens kryje się za szkłem"
+author: Krzysztof Siejkowski
 
 ---
 
-###### Kto napisał przeglądarkę, za pomocą której czytasz ten akapit? Kto stworzył środowisko, by mogła renderować tekst, przewijać go zgodnie z ruchem dłoni, by otwierać i zamykać okno? Kto zaprojektował wyświetlacz emitujący znaki, tak, by mogły dotrzeć do Twoich oczu? Interakcja z technologią jest dokładnie tym, czym jest: *interakcją z technologią*, choćby w formie medium pośredniczącego w komunikacji z drugim człowiekiem. Skoro jednak medium to jest od początku do końca sztuczne, wymyślone, zaprojektowane i zbudowane[^ATP-woodpecker], to gdzie kryją się jego twórcy?
+Kto napisał przeglądarkę, za pomocą której czytasz ten akapit? Kto stworzył środowisko, by mogła renderować tekst, przewijać go zgodnie z ruchem dłoni, by otwierać i zamykać okno? Kto zaprojektował wyświetlacz emitujący znaki, tak, by mogły dotrzeć do Twoich oczu? Interakcja z technologią jest dokładnie tym, czym jest: *interakcją z technologią*, choćby w formie medium pośredniczącego w komunikacji z drugim człowiekiem. Skoro jednak medium to jest od początku do końca sztuczne, wymyślone, zaprojektowane i zbudowane[^ATP-woodpecker], to gdzie kryją się jego twórcy?
 
 [^ATP-woodpecker]: Świetny monolog na ten temat wygłosił ostatnio John Siracusa w 56. odcinku [ATP: The Woodpecker][atp-woodpecker].
 

@@ -1,3 +1,12 @@
+---
+
+layout: post
+title: "Pomysły"
+author: Krzysztof Siejkowski
+
+---
+
+
 ### twórca ukryty przed odbiorcą:  
 * mit _normalnego użytkownika_, czyli tego, który nie ma pojęcia o niczym - skąd się bierze
 

@@ -1,3 +1,11 @@
+---
+
+layout: post
+title: "Redesign notes"
+author: Krzysztof Siejkowski
+
+---
+
 ## Blogi, na wzór których chcę przeprojektować culturalcoder.com:  
 
 * matt: [http://mattgemmell.com/](http://mattgemmell.com/)
@@ -65,6 +73,7 @@
 
 ## *Idealne* parametry bloga:
 
+* na szczycie nagłówek (wysokość 75-160px, ok 100 jest ok), szerokość tekstu to 600-700px (zwykle ok. 640)
 * jedna czcionka szeryfowa, wyrównanie do lewej, wysokość linii ok. 1.5, rozmiar czcionki ok. 20px - duża czcionka!
 * jeden kolor tekstu - szarość, różne bloki dostają ewentualnie różne szarości
 * jeden kolor tła - white albo alpha

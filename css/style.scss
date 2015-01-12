@@ -4,38 +4,82 @@
 
 @import "reset";
 
-$text-font: 'Lora', serif;
+$text-font: 'Lora', Georgia, Times, serif;
+$cultural-font: 'Source Code Pro', monospace;
+$coder-font: 'Lobster Two', Helvetica, Arial, sans-serif;
 
-html {
-  width: 100%;
-  height: 100%;
-  overflow: hidden;
-}
+$text-color: #666666;
+$accent-color: #8FBE00; //rgb(44, 128, 128);
+$default-border: 1px solid #ccc;
+
 body {
   width: 100%;
   height: 100%;
-  overflow: hidden;
-  margin: 0;
+  min-width: 320px;
   text-align: left;
-  color: #666666;
+  color: $text-color;
+  background-color: #0000;
 }
+
+.body_wrapper {
+  max-width: 700px;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.header, .footer {
+  a {
+    text-decoration: none;
+  }
+  .cultural {
+    font: 50px $cultural-font;
+  }
+  .coder {
+    font: 53px $coder-font;
+  }
+  .contacts {
+    padding-top: 5px;
+    font: 15px $text-font;
+    text-align: right;
+    a:hover {
+      text-decoration: underline;
+    }
+  }
+
+  overflow: visible;
+}
+
+.header {
+  padding-top: 20px;
+  border-bottom: $default-border;
+}
+
+.footer {
+  border-top: $default-border;
+}
+
+section {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
 h1 {
   overflow: visible;
-  margin-left: 0%;
-  font: 40px $text-font;
+  font: 30px $text-font;
+  a {
+    text-decoration: none;
+  }
+  a:hover {
+    text-decoration: underline;
+  }
 }
-h2 {
-  margin-left: 10%;
-  font: 18px $text-font;
+
+p {
+  font: 19px $text-font;
   line-height: 1.6;
 }
+
 a {
-  text-decoration: none;
-  color: #24C0EB;
-}
-.content {
-  left: 20%;
-  width: 60%;
-  position: absolute;
-  overflow: hidden;
+  color: $accent-color;
 }

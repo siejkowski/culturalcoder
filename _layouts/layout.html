@@ -1,15 +1,36 @@
-<!DOCTYPE HTML>
+---
+---
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
 
 <html>
   <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <meta name="author" content="Krzysztof Siejkowski" />
     <meta name="keywords" content="culturalcoder, cultural, coder, anthropology, programming software development, software craftsmanship, anthropology of software, programmer, anthropologist, programista, antropolog" />
+    <meta name="description" content="{{ site.words }}{% if page.words %},{{ page.words }}{% endif %}">
+    
+    <link rel="alternate" type="application/atom+xml" title="Atom (RSS) Feed for culturalcoder.com" href="{{ site.url }}/atom.xml" />
+
     <link href='http://fonts.googleapis.com/css?family=Lora:400,700&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
-    <link type="text/css" rel="stylesheet" href="css/style.css">
-    <title>{{ page.title }}</title>
+    <link href='http://fonts.googleapis.com/css?family=Source+Code+Pro:600&subset=latin,latin-ext ' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Lobster+Two:700|Cutive+Mono&text=CculturalCcoder' rel='stylesheet' type='text/css'>
+
+    <link type="text/css" rel="stylesheet" href="{{ site.url }}/css/style.css">
+
+    <title>{% if page.title %}{{ page.title }}{% else %}{{ site.name }}{% endif %}</title>
   </head>
-  <body>
+
+  <body class="body_wrapper">
+    {% include header.html %}
+      
       {{ content }}
+
+    {% include footer.html %}
   </body>
+
 </html>

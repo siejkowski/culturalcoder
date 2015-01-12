@@ -1,9 +1,8 @@
 ---
 layout: layout
-title: culturalcoder.com
+title: cultural coder
 ---
 
 <div class="content">
-	{% include content.html %}
-	<!-- {% include posts.html %} -->
+	{% include post_list.html %}
 </div>

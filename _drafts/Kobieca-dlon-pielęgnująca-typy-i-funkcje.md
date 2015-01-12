@@ -2,8 +2,6 @@
 
 layout: post
 title: "Kobieca dłoń pielęgnująca typy i funkcje"
-lang: "pl"
-read_more_after_node: 1
 author: Krzysztof Siejkowski
 
 ---
