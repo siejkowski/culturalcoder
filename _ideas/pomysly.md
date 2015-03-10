@@ -6,6 +6,37 @@ author: Krzysztof Siejkowski
 
 ---
 
+# refactorings and metaphores in programming:
+
+## developer's:
+* swift took all of us by surprise. however, it looks really interesting and powerful. however, there is one huge drawback for now.
+* developers tools and environment. no good ide. no good static analysis tools. not even a stable compiler.
+* neither Xcode nor AppCode supports the refactorings for Swift yet
+* it's a main drawback for me, i feel somewhat lost and helpless without my extractions and inlines and easy creation / generation
+* of course i can just copy and paste. i've even started to learn vim to make myself faster with working on low-level. however, the plugins are not stable. and vim has a steep learning curve.
+* what it does lead to is a code that i feel too lazy to clean the way i clean it otherwise. which is a shame, since it makes writing in swift a struggle for me. this is not what you want from the language that is so much more consise and syntax-friendly. from the language that you want to like.
+
+## anthropological:
+* there is not a one true way of programming. actually, the variety is huge. the metaphore we use to describe our job is one of factors determing the style we write in.
+* on of such metaphors is software craftsmanship.
+* the other one is software engineering.
+* the other one is the wizardy.
+* and there is also gardening. which is my favourite one.
+
+# types, compilers and power:
+
+## developer's: 
+why will i miss objc message passing in swift: 1) surogate objects 2) decoration pattern
+
+## anthropological:
+compiler as a checker, the force preventing us from mistakes - we give agency to machine so it can help us, save us, limit us
+
+
+
+
+
+
+
 
 ### twórca ukryty przed odbiorcą:  
 * mit _normalnego użytkownika_, czyli tego, który nie ma pojęcia o niczym - skąd się bierze

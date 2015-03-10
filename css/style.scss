@@ -2,14 +2,17 @@
 ---
 
 
-@import "reset";
+@import 
+  "reset",
+  "bigfoot-number"
+  ;
 
-$text-font: 'Lora', Georgia, Times, serif;
+$text-font: 'Lato', Georgia, serif;
 $cultural-font: 'Source Code Pro', monospace;
 $coder-font: 'Lobster Two', Helvetica, Arial, sans-serif;
 
-$text-color: #666666;
-$accent-color: #8FBE00; //rgb(44, 128, 128);
+$text-color: #555555;
+$accent-color: #24C0EB; // #8FBE00; //rgb(44, 128, 128);
 $default-border: 1px solid #ccc;
 
 body {
@@ -22,7 +25,7 @@ body {
 }
 
 .body_wrapper {
-  max-width: 700px;
+  max-width: 625px;
   width: 90%;
   margin-left: auto;
   margin-right: auto;
@@ -31,27 +34,30 @@ body {
 .header, .footer {
   a {
     text-decoration: none;
+    color: $accent-color;
+  }
+  .logo {
+    float:none;
   }
   .cultural {
-    font: 50px $cultural-font;
+    font: 40px $cultural-font;
   }
   .coder {
-    font: 53px $coder-font;
+    font: 43px $coder-font;
   }
   .contacts {
     padding-top: 5px;
-    font: 15px $text-font;
+    padding-bottom: 15px;
+    font: 16px $text-font;
     text-align: right;
-    a:hover {
-      text-decoration: underline;
-    }
+    float:right;
+    overflow: block;
   }
 
   overflow: visible;
 }
 
 .header {
-  padding-top: 20px;
   border-bottom: $default-border;
 }
 
@@ -59,27 +65,38 @@ body {
   border-top: $default-border;
 }
 
-section {
-  padding-top: 100px;
-  padding-bottom: 100px;
-}
+.content {
+  padding-top: 75px;
 
-h1 {
-  overflow: visible;
-  font: 30px $text-font;
+  article {
+    margin-bottom: 100px;
+  }
+
+  h1 {
+    overflow: visible;
+    font: 36px $text-font;
+    font-weight: bold;
+    line-height: 1;
+    margin: 0;
+  }
+
+  p {
+    font: 18px $text-font;
+    line-height: 1.45;
+    padding-bottom: 10px;
+  }
+
+  sup { 
+    vertical-align: top;
+    position: relative; top: -0.5em;
+  }
+
   a {
+    color: $accent-color;
     text-decoration: none;
   }
+
   a:hover {
-    text-decoration: underline;
+    text-decoration: none;
   }
-}
-
-p {
-  font: 19px $text-font;
-  line-height: 1.6;
-}
-
-a {
-  color: $accent-color;
 }
