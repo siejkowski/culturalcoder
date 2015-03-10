@@ -1,6 +1,8 @@
 safe: true
 lsi: false
 source: .
+name: cultural coder
+author: krzysztof siejkowski
 
 future: true
 permalink: :title
