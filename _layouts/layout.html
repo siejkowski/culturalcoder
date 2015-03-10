@@ -20,7 +20,7 @@
     <meta name="twitter:site" content="@culturalcoder" />
     <meta name="twitter:title" content="{{ page.title }}" />
     <meta name="twitter:description" content="{% if page.description %}{{ page.description }}{% endif %}" />
-    <meta name="twitter:url" content="http://culturalcoder.com{{ page.url }}" />
+    <meta name="twitter:url" content="{{ site.deployurl }}{{ page.url }}" />
     
     <link rel="alternate" type="application/atom+xml" title="Atom (RSS) Feed for culturalcoder.com" href="{{ site.url }}/atom.xml" />
 
