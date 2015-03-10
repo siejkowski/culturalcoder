@@ -2,10 +2,7 @@
 ---
 
 
-@import 
-  "reset",
-  "bigfoot-number"
-  ;
+@import "reset";
 
 $text-font: 'Lato', Georgia, serif;
 $cultural-font: 'Source Code Pro', monospace;
@@ -69,7 +66,7 @@ body {
   padding-top: 75px;
 
   article {
-    margin-bottom: 100px;
+    margin-bottom: 125px;
   }
 
   h1 {
@@ -78,12 +75,18 @@ body {
     font-weight: bold;
     line-height: 1;
     margin: 0;
+    padding-bottom: 15px;
   }
 
   p {
     font: 18px $text-font;
     line-height: 1.45;
     padding-bottom: 10px;
+  }
+
+  .date {
+    font: 16px $text-font;
+    line-height: 1.45;
   }
 
   sup { 
