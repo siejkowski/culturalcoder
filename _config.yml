@@ -3,6 +3,7 @@ lsi: false
 source: .
 name: cultural coder
 author: krzysztof siejkowski
+baseurl: http://culturalcoder.com
 
 future: true
 permalink: :title
