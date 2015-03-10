@@ -11,8 +11,8 @@
   <author>
     <name>{{ site.author }}</name>
   </author>
-  <icon>{{ site.url }}/favicon.ico</icon>
-  <logo>{{ site.url }}/favicon.ico</logo>
+  <icon>{{ site.baseurl }}/favicon.ico</icon>
+  <logo>{{ site.baseurl }}/favicon.ico</logo>
  
   {% for post in site.posts limit:50 %}
   <entry>
