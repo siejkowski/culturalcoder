@@ -102,4 +102,11 @@ body {
   a:hover {
     text-decoration: none;
   }
+
+  .footnotes {
+    p {
+      font: 16px $text-font;
+    }
+  }
+
 }
