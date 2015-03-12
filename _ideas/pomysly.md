@@ -6,6 +6,23 @@ author: Krzysztof Siejkowski
 
 ---
 
+# short post:
+* https://modelviewculture.com/pieces/hacker-mythologies-and-mismanagement
+* http://computationalculture.net/article/no-sql-the-shifting-materialities-of-database-technology
+
+
+
+# fetyszyzacja kodu i czynności kodowania i samych programistów:
+https://modelviewculture.com/pieces/non-coding-contributors-in-open-source
+http://engineering.intenthq.com/2015/03/what-is-good-code-a-scientific-definition/
+
+
+# this could be added to "objc as the different" post
+https://modelviewculture.com/pieces/c-is-manly-python-is-for-n00bs-how-false-stereotypes-turn-into-technical-truths
+
+
+
+
 # refactorings and metaphores in programming:
 
 ## developer's:
@@ -51,7 +68,7 @@ compiler as a checker, the force preventing us from mistakes - we give agency to
 ### o władzy w programowaniu - w tym także o open source:   
 * segmentation foucault, czyli o tym, jak fizyka, w której działają nasze programy (sprzęt, architektura itp.) stanowi ośrodek władzy - tak długo, jak sami nie możemy tej władzy przejąć   
 * statyczna kontrola typów w Scali jako dobrowolne oddanie władzy na rzecz wychwytywania błedów, jako "oddanie się pod obronę"   
-* interfejs użytkownika jako mechanizm dyscyplinujący, definiujący ciało programisty     
+* interfejs użytkownika jako mechanizm dyscyplinujący, definiujący ciało programisty
    
 ### cykl o marksistowskich ciągotach w programowaniu:   
 * programista-marksista? czy można w zawodzie tak nasiąkłym ideami protestanckimi mówić w ogóle o byciu marsistą?   

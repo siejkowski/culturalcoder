@@ -1,7 +1,7 @@
 ---
 
 layout: post
-title: "Kobieca dłoń pielęgnująca typy i funkcje"
+title: "programming metaphors gender"
 author: Krzysztof Siejkowski
 
 ---
