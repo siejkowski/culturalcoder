@@ -5,7 +5,7 @@ title: "inclusivity of programming metaphors"
 author: Krzysztof Siejkowski
 date: 2015-03-16
 keywords: programming metaphors, software studies
-description: 
+description: could we choose the programming metaphors based on their inclusivity? please?
 
 ---
 
