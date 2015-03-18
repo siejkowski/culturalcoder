@@ -3,7 +3,7 @@
 layout: post
 title: "programming language mythos"
 author: Krzysztof Siejkowski
-date: 2015-03-15
+date: 2015-03-28
 keywords: mythos, swift, objective-c
 description: 
 

@@ -4,7 +4,15 @@ layout: layout
 
 <div class="content">
 	<article>
-	<h1><a href="{{ site.deployurl }}{{ page.url }}">{{ page.title }}</a></h1>
+	<h1>
+	{% if page.directlink %}
+		<a href="{{ page.directlink }}">
+	{% else %}
+		<a href="{{ site.deployurl }}{{ page.url }}">
+    {% endif %}
+			{{ page.title }}
+		</a>
+	</h1>
 	    {{ content }}
 
 	<a href="{{ site.deployurl }}{{ page.url }}">

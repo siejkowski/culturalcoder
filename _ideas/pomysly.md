@@ -17,13 +17,6 @@ author: Krzysztof Siejkowski
 
 
 
-
-# short post:
-* https://modelviewculture.com/pieces/hacker-mythologies-and-mismanagement
-* http://computationalculture.net/article/no-sql-the-shifting-materialities-of-database-technology
-
-
-
 # fetyszyzacja kodu i czynności kodowania i samych programistów:
 https://modelviewculture.com/pieces/non-coding-contributors-in-open-source
 http://engineering.intenthq.com/2015/03/what-is-good-code-a-scientific-definition/
@@ -45,12 +38,6 @@ https://modelviewculture.com/pieces/c-is-manly-python-is-for-n00bs-how-false-ste
 * of course i can just copy and paste. i've even started to learn vim to make myself faster with working on low-level. however, the plugins are not stable. and vim has a steep learning curve.
 * what it does lead to is a code that i feel too lazy to clean the way i clean it otherwise. which is a shame, since it makes writing in swift a struggle for me. this is not what you want from the language that is so much more consise and syntax-friendly. from the language that you want to like.
 
-## anthropological:
-* there is not a one true way of programming. actually, the variety is huge. the metaphore we use to describe our job is one of factors determing the style we write in.
-* on of such metaphors is software craftsmanship.
-* the other one is software engineering.
-* the other one is the wizardy.
-* and there is also gardening. which is my favourite one.
 
 # types, compilers and power:
 
@@ -90,7 +77,6 @@ compiler as a checker, the force preventing us from mistakes - we give agency to
 * czy programowanie jest post-protestanckie? (dominacja dyskursu amerykanskiego)   
    
 ### cykl o genderze:   
-* genderowy bias metafor programowania   
 * szukanie "chłopaka od komputerów" (hryciuk prosząca, żeby jej się plik otwierał)   
    
 ### antropologia odwrócona programowaniem:   

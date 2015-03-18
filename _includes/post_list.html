@@ -1,6 +1,16 @@
 {% for post in site.posts %}
 <article>
-    <h1><a href="{{ site.deployurl }}{{ post.url }}">{{ post.title }}</a></h1>
+    
+    	<h1>
+	{% if post.directlink %}
+		<a href="{{ post.directlink }}">
+	{% else %}
+		<a href="{{ site.deployurl }}{{ post.url }}">
+    {% endif %}
+			{{ post.title }}
+		</a>
+	</h1>
+    
         {{ post.content }}
     <a href="{{ site.deployurl }}{{ post.url }}">
     <div class="date">Published on {{ post.date | date: "%-d/%m/%Y" }}.
