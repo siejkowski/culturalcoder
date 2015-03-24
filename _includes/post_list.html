@@ -6,7 +6,15 @@
 			{{ post.title }}
 		</a>
 	</h1>
-    
+
+    {% if forloop.index0 == 0 %}
+        {{ post.content }}
+    {% else %}
+    <div class="lead">
+        {{ post.description }}
+    </div>
+    {% endif %}
+
     <a href="{{ site.deployurl }}{{ post.url }}">
     <div class="date">Published on {{ post.date | date: "%-d/%m/%Y" }}.
     {% if post.update %}
@@ -14,6 +22,9 @@
     {% endif %}
     </div>
     </a>
+    {% if forloop.last == false %}
+    <hr/>
+    {% endif %} 
 </article>
 {% endfor %}
 <!-- {% include footer.html %} -->

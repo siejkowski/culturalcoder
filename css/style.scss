@@ -63,6 +63,11 @@ body {
   border-top: $default-border;
 }
 
+hr {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
 .content {
   padding-top: 75px;
 
@@ -70,10 +75,15 @@ body {
     margin-bottom: 50px;
   }
 
+  .lead {
+    font: 20px $text-font;
+    font-weight: 300;
+    padding-bottom: 15px;
+  }
+
   h1 {
     overflow: visible;
     font: 36px $text-font;
-    font-weight: bold;
     line-height: 1;
     margin: 0;
     padding-bottom: 15px;
@@ -91,7 +101,7 @@ body {
     font: 16px $text-font;
     line-height: 1.45;
     font-weight: 300;
-    padding-bottom: 20px;
+    padding-bottom: 40px;
   }
 
   sup { 
