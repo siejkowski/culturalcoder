@@ -6,7 +6,7 @@ author: Krzysztof Siejkowski
 date: 2015-03-25
 keywords: hackers, myths, lies
 directlink: https://modelviewculture.com/pieces/hacker-mythologies-and-mismanagement
-description: Fantastic analysis of issues caused by the stereotypical image of a hacker by Betsy Haibel.
+description: Comments on Betsy Haibel's fantastic analysis of issues caused by the stereotypical hacker image.
 
 ---
 
