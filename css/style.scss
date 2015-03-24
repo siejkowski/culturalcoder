@@ -32,6 +32,7 @@ body {
   a {
     text-decoration: none;
     color: $accent-color;
+    font-weight: 300;
   }
   .logo {
     float:none;
@@ -66,7 +67,7 @@ body {
   padding-top: 75px;
 
   article {
-    margin-bottom: 150px;
+    margin-bottom: 50px;
   }
 
   h1 {
@@ -76,17 +77,21 @@ body {
     line-height: 1;
     margin: 0;
     padding-bottom: 15px;
+    font-weight: 300;
   }
 
   p {
     font: 18px $text-font;
     line-height: 1.45;
-    padding-bottom: 10px;
+    padding-bottom: 5px;
+    padding-top: 5px;
   }
 
   .date {
     font: 16px $text-font;
     line-height: 1.45;
+    font-weight: 300;
+    padding-bottom: 20px;
   }
 
   sup { 
@@ -97,25 +102,30 @@ body {
   blockquote { 
     padding-left: 10px;
     padding-right: 10px;
-    margin-top: 10px;
-    margin-bottom: 10px;
+    margin-top: 30px;
+    margin-bottom: 30px;
     border-left: 5px solid rgba($accent-color, 0.4);
     margin-left: 10px;
     p {
       padding-bottom: 0px;
-      font: 17px $text-font;
+      font-weight: 300;
+      margin-bottom: 10px;
     }
     h3 {
+      margin-top: 0px;
       padding-left: 10%;
       width: 90%;
       text-align: right;
-      font: 16px $text-font;
+      font: 17px $text-font;
+      font-weight: 300;
     }
   }
 
   a {
     color: $accent-color;
     text-decoration: none;
+    font-size: 1.05em;
+    font-weight: 300;
   }
 
   a:hover {

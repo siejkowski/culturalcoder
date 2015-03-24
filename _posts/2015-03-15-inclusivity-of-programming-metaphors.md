@@ -15,14 +15,10 @@ description: could we choose the programming metaphors based on their inclusivit
 
 Here comes the topic as old as programming itself. An answer for "what is programming like?" question.
 
-Programming is like civil engineering. Programmers are bridge-builders.
-
-Programming is like magic. Programmers are wizards.
-
-Programming is like writing prose. Programmers are writers.
-
-Programming is like running a farm. Programmers are farmers.
-
+Programming is like civil engineering. Programmers are bridge-builders.  
+Programming is like magic. Programmers are wizards.  
+Programming is like writing prose. Programmers are writers.  
+Programming is like running a farm. Programmers are farmers.  
 Have I mentioned the oysters?
 
 Are we done yet? It seems like everyone had come up with their insights already. Not surprisingly even, as it's a joyful form of introspection. After all, if our programs use reflection[^reflection], why wouldn't we? All those metaphors might entertains us. They might make for a challenging theoretical discussion[^boring]. They might lead to some interesting thought experiments and even inspire us on how to adjust the process of software development to better serve its gods of efficiency and shippability. It might seem that the programming metaphors are innocent tools of programmers' self-awareness.
@@ -83,6 +79,8 @@ What I do see, hovever, are the possibilities to use this metaphor to [make code
 
 What a win it would be.
 
+***
+
 [^reflection]: [Reflection](http://en.m.wikipedia.org/wiki/Reflection_(computer_programming)) is an ability of computer program to identify what parts it consists of and modify itself if needed while running. For example a mobile app can reflect on what sections of the screen have been loaded and use that knowledge to hide or show particular features.
 
 [^boring]: Although, let's admit it, a slightly boring one.
@@ -91,7 +89,7 @@ What a win it would be.
 
 [^values-over-metaphor]: [{{ site.data.cites.values-over-metaphor.author }}]({{ site.data.cites.values-over-metaphor.contact }}) writes a [few pages later]({{ site.data.cites.values-over-metaphor.url }}): "{{ site.data.cites.values-over-metaphor.cite }}"
 
-[^industrialized]: In the same [document]({{ site.data.cites.software-industrialized.url }}):"{{ site.data.cites.software-industrialized.cite }}" By {{ site.data.cites.software-industrialized.author }}
+[^industrialized]: In the same [document]({{ site.data.cites.software-industrialized.url }}): "{{ site.data.cites.software-industrialized.cite }}" By {{ site.data.cites.software-industrialized.author }}
 
 [^pragmatic-diversity]: Even if one don't see the increase in diversity as morally proper, there's a pragmatic argument: technology is a form of power. And the more distributed power is, the safer I feel in terms of whether it wouldn't be abused.
 

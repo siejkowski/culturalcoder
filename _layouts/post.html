@@ -14,14 +14,13 @@ layout: layout
 		</a>
 	</h1>
 	    {{ content }}
-
-	<a href="{{ site.deployurl }}{{ page.url }}">
-	<div class="date">Published on {{ page.date | date: "%-d/%m/%Y" }}.
+    </article>
+    <a href="{{ site.deployurl }}{{ page.url }}">
+    <div class="date">Published on {{ page.date | date: "%-d/%m/%Y" }}.
     {% if page.update %}
-    	Last update: {{ page.update | date: "%-d/%m/%Y" }}.
+        Last update: {{ page.update | date: "%-d/%m/%Y" }}.
     {% endif %}
     </div>
     </a>
-	<div class="date">You can discuss the above by going to <a href="http://twitter.com/culturalcoder">@culturalcoder on Twitter</a>. <br/>You can also subscribe to <a href="{{ site.url }}/atom.xml">RSS feed</a>.</div>
-	</article>
+    <div class="date">You can discuss the above by going to <a href="http://twitter.com/culturalcoder">@culturalcoder on Twitter</a>. <br/>You can also subscribe to <a href="{{ site.url }}/atom.xml">RSS feed</a>.</div>
 </div>

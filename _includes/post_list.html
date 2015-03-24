@@ -1,17 +1,12 @@
 {% for post in site.posts %}
 <article>
     
-    	<h1>
-	{% if post.directlink %}
-		<a href="{{ post.directlink }}">
-	{% else %}
+    <h1>
 		<a href="{{ site.deployurl }}{{ post.url }}">
-    {% endif %}
 			{{ post.title }}
 		</a>
 	</h1>
     
-        {{ post.content }}
     <a href="{{ site.deployurl }}{{ post.url }}">
     <div class="date">Published on {{ post.date | date: "%-d/%m/%Y" }}.
     {% if post.update %}
@@ -21,3 +16,4 @@
     </a>
 </article>
 {% endfor %}
+<!-- {% include footer.html %} -->
