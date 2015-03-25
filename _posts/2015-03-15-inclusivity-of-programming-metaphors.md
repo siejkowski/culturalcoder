@@ -11,7 +11,9 @@ description: Could a deliberate choice of metaphors make programming more inclus
 
 > {{ site.data.cites.dead-metaphor.cite }}  
 > 
-> ### [{{ site.data.cites.dead-metaphor.author }}]({{ site.data.cites.dead-metaphor.contact }}) on [{{ site.data.cites.dead-metaphor.source }}]({{ site.data.cites.dead-metaphor.url }})
+> <span class="author">
+> [{{ site.data.cites.dead-metaphor.author }}]({{ site.data.cites.dead-metaphor.contact }}) on [{{ site.data.cites.dead-metaphor.source }}]({{ site.data.cites.dead-metaphor.url }})
+> </span>
 
 Here comes the topic as old as programming itself. An answer for "what is programming like?" question.
 
@@ -35,7 +37,9 @@ Let's take [software craftsmanship](http://manifesto.softwarecraftsmanship.org),
 
 > {{ site.data.cites.better-metaphor.cite }}
 >
-> ### [{{ site.data.cites.better-metaphor.author }}]({{ site.data.cites.better-metaphor.contact }}) in [{{ site.data.cites.better-metaphor.source }}]({{ site.data.cites.better-metaphor.url }})
+> <span class="author">
+> [{{ site.data.cites.better-metaphor.author }}]({{ site.data.cites.better-metaphor.contact }}) in [{{ site.data.cites.better-metaphor.source }}]({{ site.data.cites.better-metaphor.url }})
+> </span>
 
 A vision of an apprentice dedicating life to improving quality of their skills and achiving mastery is a powerful image. It's a role-model that was used for identifing how to bring _professionalism_ into software development. However, using metaphor as a vehicle for carrying values is a double-edged sword. It makes the message simple and concise, but also fragile to being rejected on account of metaphor. The meaning might be judged not by itself, but by how well the metaphor is carring it. The _craftmanship_ in software craftmanship was therefore downplayed and now it's rarely brought into discussion[^values-over-metaphor].
 
@@ -43,7 +47,9 @@ A vision of an apprentice dedicating life to improving quality of their skills a
 
 > {{ site.data.cites.software-engineering.cite }}  
 > 
-> ### [{{ site.data.cites.software-engineering.source }}]({{ site.data.cites.software-engineering.url }}), edited by {{ site.data.cites.software-engineering.author }}
+> <span class="author">
+> [{{ site.data.cites.software-engineering.source }}]({{ site.data.cites.software-engineering.url }}), edited by {{ site.data.cites.software-engineering.author }}
+> </span>
 
 Wat?! In what universe is software engineering a provocative term? Well, it isn't anymore, and that's exactly the point. Since it was introduced, it became so obvious, that we call the [university programmes](https://www.cs.ox.ac.uk/softeng/) by that name. When it was introduced, however, the aim was to make the messy world of computer programming more structuralized, more professional and more industrialized[^industrialized]. As the wonderful [_Recoding Gender_](http://mitpress.mit.edu/books/recoding-gender-0) book states, the term was aspirational. It was a metaphor consciously used to lift the young software development field.
 
@@ -63,7 +69,9 @@ Could it stick, though? Well, the answer whether it applies to common sense, i.e
 
 > {{ site.data.cites.software-gardening.cite }}  
 > 
-> ### [{{ site.data.cites.software-gardening.author }}]({{ site.data.cites.software-gardening.contact }}), during [interview]({{ site.data.cites.software-gardening.url }})
+> <span class="author">
+> [{{ site.data.cites.software-gardening.author }}]({{ site.data.cites.software-gardening.contact }}), during [interview]({{ site.data.cites.software-gardening.url }})
+> </span>
 
 All that pruning, splitting and transplanting sounds an aweful lot like the refactorings we do every day. Isn't the whole microservices idea[^microservice] aiming at introducing the ability to change into architecture so that the organic growth of complexity in both feature set and implementation would never cause the whole project to wither? Isn't TDD[^tdd], the technique for [shortening feedback loop](http://qualitycoding.org/benefit-of-tdd/), based on small increments and reacting to them the way that the gardener reacts to small changes at their garden?
 

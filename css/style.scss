@@ -8,6 +8,16 @@ $text-font: 'Source Sans Pro', Georgia, serif;
 $cultural-font: 'Source Code Pro', monospace;
 $coder-font: 'Lobster Two', Helvetica, Arial, sans-serif;
 
+$basic-size: 18px;
+$header-size: 40px;
+$small-size: 16px;
+$smaller-size: 16px;
+$big-size: 21px;
+
+$light-weight: 300;
+$regular-weight: 400;
+$heavy-weight: 700;
+
 $text-color: #555555;
 $accent-color: #24C0EB;
 $default-border: 1px solid #ccc;
@@ -32,7 +42,7 @@ body {
   a {
     text-decoration: none;
     color: $accent-color;
-    font-weight: 300;
+    font-weight: $light-weight;
   }
   .logo {
     float:none;
@@ -46,7 +56,7 @@ body {
   .contacts {
     padding-top: 5px;
     padding-bottom: 15px;
-    font: 16px $text-font;
+    font: $small-size $text-font;
     text-align: right;
     float:right;
     overflow: block;
@@ -76,37 +86,38 @@ hr {
   }
 
   .lead {
-    font: 20px $text-font;
-    font-weight: 300;
+    font: $big-size $text-font;
+    font-weight: $light-weight;
     padding-bottom: 15px;
   }
 
   h1 {
     overflow: visible;
-    font: 36px $text-font;
+    font: $header-size $text-font;
     line-height: 1;
     margin: 0;
     padding-bottom: 15px;
-    font-weight: 700;
+    font-weight: $heavy-weight;
     a {
-        font-weight: 700;
+        font-weight: $heavy-weight;
     }
     a.lighter {
-        font-weight: 300;
+        font-weight: $light-weight;
     }
   }
 
   p {
-    font: 18px $text-font;
+    font: $basic-size $text-font;
     line-height: 1.45;
+    font-weight: $regular-weight;
     padding-bottom: 5px;
     padding-top: 5px;
   }
 
   .date {
-    font: 16px $text-font;
+    font: $small-size $text-font;
     line-height: 1.45;
-    font-weight: 300;
+    font-weight: $light-weight;
     padding-bottom: 40px;
   }
 
@@ -124,16 +135,17 @@ hr {
     margin-left: 10px;
     p {
       padding-bottom: 0px;
-      font-weight: 300;
+      font-weight: $light-weight;
       margin-bottom: 10px;
     }
-    h3 {
+    span.author {
       margin-top: 0px;
-      padding-left: 10%;
-      width: 90%;
+      padding-left: 20%;
+      width: 80%;
+      display:inline-block;
       text-align: right;
-      font: 17px $text-font;
-      font-weight: 300;
+      font: $small-size $text-font;
+      font-weight: $light-weight;
     }
   }
 
@@ -141,7 +153,7 @@ hr {
     color: $accent-color;
     text-decoration: none;
     font-size: 1.05em;
-    font-weight: 300;
+    font-weight: $light-weight;
   }
 
   a:hover {
@@ -150,7 +162,7 @@ hr {
 
   .footnotes {
     p {
-      font: 16px $text-font;
+      font: $smaller-size $text-font;
     }
   }
 
