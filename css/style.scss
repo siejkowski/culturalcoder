@@ -87,7 +87,13 @@ hr {
     line-height: 1;
     margin: 0;
     padding-bottom: 15px;
-    font-weight: 300;
+    font-weight: 700;
+    a {
+        font-weight: 700;
+    }
+    a.lighter {
+        font-weight: 300;
+    }
   }
 
   p {

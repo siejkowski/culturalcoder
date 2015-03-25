@@ -1,8 +1,7 @@
 {% for post in site.posts %}
 <article>
-    
     <h1>
-		<a href="{{ site.deployurl }}{{ post.url }}">
+		<a href="{{ site.deployurl }}{{ post.url }}" class="{% if forloop.index0 != 0 %}lighter{% endif %}">
 			{{ post.title }}
 		</a>
 	</h1>
