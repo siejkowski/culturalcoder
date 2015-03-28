@@ -8,10 +8,9 @@ $text-font: 'Source Sans Pro', Georgia, serif;
 $cultural-font: 'Source Code Pro', monospace;
 $coder-font: 'Lobster Two', Helvetica, Arial, sans-serif;
 
-$basic-size: 18px;
+$basic-size: 19px;
 $header-size: 40px;
 $small-size: 16px;
-$smaller-size: 16px;
 $big-size: 21px;
 
 $light-weight: 300;
@@ -162,7 +161,7 @@ hr {
 
   .footnotes {
     p {
-      font: $smaller-size $text-font;
+      font: $small-size $text-font;
     }
   }
 

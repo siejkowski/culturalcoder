@@ -22,6 +22,6 @@ Totally nailed it. Honestly, this is just a kind of article that I wish I'd writ
 > 
 > As humans, we lie to ourselves. We lie to ourselves about who we are. (We’re smarter than you.) We lie to ourselves about what we do. (We are changing the world, one photo-sharing app at a time.) We lie to ourselves about how best to do it. (In caves.)
 
-Isn't it adorable that the programmers need to be reminded about their own humanity? And they really do! The concepts, frameworks and implementations we live and breathe are still disconnected enough from the common discourse that it's easy to forget that *programming is a form of human activity*. It's not a way of escaping or transcending the human activities. However, Cartesian dualism of mind and body might have been heavily criticized and deconstructed in the social science, but it's still surprisingly strong in the self-image of a software developer.
+Isn't it adorable that the programmers need to be reminded about their own humanity? And they really do! The concepts, frameworks and implementations we live and breathe are still disconnected enough from the common discourse that it's easy to forget that *programming is a form of human activity*. It's not a way of escaping or transcending human activities. Cartesian dualism of mind and body might have been heavily criticized and deconstructed in the social science, but it's still surprisingly strong in the self-image of a software developer.
 
 Seriously, how can it be? I find it fascinating, stunning and ludicrous.
