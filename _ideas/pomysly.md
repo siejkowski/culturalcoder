@@ -6,7 +6,7 @@ author: Krzysztof Siejkowski
 
 ---
 
-
+ACM Conference on Human factors in computing systems !!!!!
 
 http://www.thoughtclusters.com/2009/07/the-problem-with-the-software-craftsmanship-concept/
 http://www.skorks.com/2009/07/in-defense-of-the-software-craftsmanship-concept/
@@ -16,6 +16,18 @@ http://stackoverflow.com/questions/38210/what-non-programming-books-should-progr
 http://stackoverflow.com/questions/20564/what-constitutes-beautiful-code?lq=1
 http://berkeleyjournal.org/2015/01/morality-and-the-idea-of-progress-in-silicon-valley/
 
+https://nytuan.wordpress.com
+http://czlowiekitechnologie.com
+http://www.piotrsiuda.pl
+http://rbomba.pl
+
+L. Manovich, Software Takes Command
+selfiecity.net
+S. Levy, In The Plex: How Google Thinks, Works, and Shapes Our Lives
+N. Silver, The Signal and The Noise
+Debates in the Digital Humanities,
+Evgeny Morozov, The Net Delusion
+Ray Kurzweil, Nadchodzi osobliwość
 
 
 # fetyszyzacja kodu i czynności kodowania i samych programistów:

@@ -8,7 +8,7 @@
 
     {% if forloop.index0 == 0 %}
         {{ post.content }}
-    {% elsif post.directlink == null %}
+    {% else %}
     <div class="lead">
         {{ post.description }}
     </div>
