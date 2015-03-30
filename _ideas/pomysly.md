@@ -21,6 +21,8 @@ http://czlowiekitechnologie.com
 http://www.piotrsiuda.pl
 http://rbomba.pl
 
+http://www.dourish.com/talks.html
+
 L. Manovich, Software Takes Command
 selfiecity.net
 S. Levy, In The Plex: How Google Thinks, Works, and Shapes Our Lives
