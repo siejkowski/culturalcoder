@@ -24,7 +24,7 @@ software-engineering:
   contact: 
   source: "Software Engineering: report on a conference sponsored by the NATO SCIENCE COMMITTEE Garmisch, Germany, 7th to 11th October 1968"
   url: http://homepages.cs.ncl.ac.uk/brian.randell/NATO/nato1968.PDF
-  cite: "The phrase ‘software engineering’ was deliberately chosen as being provocative, in implying the need for software manufacture to be based on the types of theoretical founda- tions and practical disciplines, that are traditional in the established branches of engineering."
+  cite: "The phrase ‘software engineering’ was deliberately chosen as being provocative, in implying the need for software manufacture to be based on the types of theoretical foundations and practical disciplines, that are traditional in the established branches of engineering."
 
 software-industrialized:
   author: "M.D. McIlroy, Bell Telephone Laboratories Inc."
